@@ -1,0 +1,49 @@
+.entry-form__content {
+    background-color: #DCDCDC;
+    padding: 30px;
+    text-align: center;
+}
+
+.entry-form__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.entry-form__heading {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form__content--text input {
+    padding: 10px;
+    margin: 15px;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+}
+
+.form__button button {
+    width: 300px;
+    background-color: blue;
+    color: #fff;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.login {
+    margin-bottom: 30px;
+}
+
+.login__guide {
+    color: #808080;
+    font-size: 15px;
+}
+
+.login__guide--link {
+    text-decoration: none;
+    color: blue;
+}

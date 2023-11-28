@@ -1,0 +1,30 @@
+.header {
+    background-color: #FFF;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1230px;
+}
+
+.header__log {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #FFF;
+    margin: 15px;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+}
