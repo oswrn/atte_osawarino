@@ -8,11 +8,6 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    public function index()//打刻ページ表示
-    {
-        return view('stamping');
-    }
-
     public function getRegister()//ユーザー新規登録ページの表示
     {
         return view('auth.register');
@@ -44,8 +39,15 @@ class AuthController extends Controller
         ]);
     }
 
+    public function index()//打刻ページ表示
+    {
+        return view('stamping');
+    }
+
     public function getLogout()//ログアウト処理
     {
+        Auth::logout(); // ユーザーのログアウト
 
+        return redirect('/login')->with('logout_success', 'ログアウトしました'); // ログアウト後にログインページにリダイレクト
     }
 }
